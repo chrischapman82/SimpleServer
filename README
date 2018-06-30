@@ -1,1 +1,9 @@
-A simple server that I created for a school project.
+A simple server using TCP, implementing HTTP 1.0 that I created in C for a uni project.
+ 
+Run to create a simple server on a local machine.
+
+Is on the simple side, taking GET requests and outputting codes 200 OK and 404 NOT OK. 
+Can deal with HTML, JPEG, CSS and JS files.
+ 
+Takes arguments: portnumber  -> The Port number to put the server on
+                 root path   -> The root dir for finding objects
